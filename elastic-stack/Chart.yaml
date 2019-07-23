@@ -1,0 +1,5 @@
+description: Helm chart for elastic-stack
+home: https://github.com/TriadGroupPlc/elastic-stack-helm-charts
+name: elastic-stack
+version: 7.2.0
+appVersion: 7.2.0

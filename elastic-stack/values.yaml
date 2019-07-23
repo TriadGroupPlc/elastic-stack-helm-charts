@@ -1,19 +1,19 @@
 ---
 elasticsearch:
     enabled: true
-    clusterName: "<a unique name for your elastic cluster>"
+    clusterName: "elastic-cluster"
     nodeGroup: "master"
     replicas: 2 #Number of Elastic nodes you want
  
 kibana:
     enabled: true
-    elasticsearchHosts:"http://<clusterName>-<nodeGroup>:9200"
+    elasticsearchHosts: "http://elastic-cluster-master:9200"
      
 filebeat:
     enabled: true
     extraEnvs:
     - name: ELASTICSEARCH_HOSTS
-      value: "http://<clusterName>-<nodeGroup>:9200
+      value: "http://elastic-cluster-master:9200"
  
 logstash:
     enabled: false

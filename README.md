@@ -21,10 +21,3 @@ Please look in the chart directories for the documentation for each chart. These
 * [Logstash](./logstash/README.md) - [docker image docs](https://www.elastic.co/guide/en/logstash/current/docker.html)
 * [Fluentd](./fluentd/README.md) - [docker image docs](https://github.com/fluent/fluentd-docker-image)
 
-
-## Kubernetes versions
-
-The charts are [currently tested](https://devops-ci.elastic.co/job/elastic+helm-charts+master/) against all GKE versions available. 
-
-
-
